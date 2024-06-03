@@ -1,3 +1,63 @@
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+}
+  
+.navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+  
+.navbar .navbar-brand:hover {
+    color: #e9ecef;
+}
+  
+.navbar .navbar-nav .nav-link {
+    color: #ffffff; 
+    font-size: 1.1em;
+    margin-right: 15px;
+}
+  
+.navbar .navbar-nav .nav-link:hover {
+    color: #e9ecef; 
+}
+  
+.navbar .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #e9ecef; 
+}
+  
+.navbar-toggler {
+    border-color: #ffffff; 
+}
+  
+.navbar-toggler-icon {
+    color: #ffffff; 
+}
+  
+@media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 body{
 	background-color:#F8F8F8!important;
 }
@@ -7,7 +67,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Make sure the wrapper takes the full height */
+    height: 100%; 
     text-align: center;
 }
 
@@ -157,68 +217,3 @@ ul{
     max-width: 100%;
     height: auto;
 }
-
-
-.navbar {
-    background-color: #007bff; /* Change the background color */
-    padding: 10px 20px;
-}
-  
-.navbar .navbar-brand {
-    color: #ffffff; /* Change the brand color */
-    font-weight: bold;
-    font-size: 1.5em;
-}
-  
-.navbar .navbar-brand:hover {
-    color: #e9ecef; /* Change the hover color for the brand */
-}
-  
-.navbar .navbar-nav .nav-link {
-    color: #ffffff; /* Change the link color */
-    font-size: 1.1em;
-    margin-right: 15px;
-}
-  
-.navbar .navbar-nav .nav-link:hover {
-    color: #e9ecef; /* Change the hover color for the links */
-}
-  
-.navbar .navbar-nav .nav-link.active {
-    font-weight: bold;
-    color: #e9ecef; /* Change the active link color */
-}
-  
-.navbar-toggler {
-    border-color: #ffffff; /* Change the border color of the toggler */
-}
-  
-.navbar-toggler-icon {
-    color: #ffffff; /* Change the color of the toggler icon */
-}
-  
-@media (max-width: 992px) {
-    .navbar-nav {
-      text-align: center;
-    }
-}
-  
-  /* Adding smooth scroll behavior for links */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Center-align navbar items */
-.navbar-nav {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.nav-item {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-  
