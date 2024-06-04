@@ -1,16 +1,8 @@
-.navbar {
+.navbar.fixed-top {
     background-color: #007bff;
-    padding: 10px 20px;
-}
-  
-.navbar .navbar-brand {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-  
-.navbar .navbar-brand:hover {
-    color: #e9ecef;
+    padding: 20px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
 }
   
 .navbar .navbar-nav .nav-link {
@@ -62,6 +54,10 @@ body{
 	background-color:#F8F8F8!important;
 }
 
+.container{
+    margin-top: 100px;
+}
+
 #profile-wrapper {
     display: flex;
     flex-direction: column;
@@ -83,7 +79,6 @@ ul{
 	padding: 0;
     list-style-type: none;
 }
-
 
 .social-links ul, li{
 	list-style-type:none;
