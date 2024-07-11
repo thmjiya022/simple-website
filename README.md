@@ -38,12 +38,8 @@ I am a Python Developer with extensive experience in Django, currently pursuing 
   - Duration: February 2018 - Incomplete
 
 - **weThinkCode_**
-  - National Certificate in Information Technology (System Development)
-  - Duration: September 2022 - December 2023
-
-- **Umuzi Academy**
   - National Certificate in Information Technology (System Development) (SAQA ID 48872)
-  - Duration: March 2024 - Present
+  - Duration: September 2022 - December 2023
 
 ## Experience
 
